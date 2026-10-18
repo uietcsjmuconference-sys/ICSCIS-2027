@@ -22,12 +22,12 @@ import HomepagefloatingKeynotesspeaker from "../components/homepagespeaker/Homep
 const Home = () => {
   return (
     <>
-      <div className="relative">
+      {/* <div className="relative"> */}
 
       {/* Floating Left Button */}
       {/* <Announcements /> */}
 
-    </div>
+     {/* </div> */}
 
       <VideoHomepage />
       <Carousel />
