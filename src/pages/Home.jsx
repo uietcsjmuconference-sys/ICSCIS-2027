@@ -25,7 +25,7 @@ const Home = () => {
       <div className="relative">
 
       {/* Floating Left Button */}
-      <Announcements />
+      {/* <Announcements /> */}
 
     </div>
 
