@@ -1,0 +1,194 @@
+import { useState } from "react";
+import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+const menuItems = [
+  { label: "Home", href: "/" },
+  { label: "About Conference", href: "/about" },
+  {
+    label: "Calls",
+    hasDropdown: true,
+    subItems: [
+      { label: "Call for paper", href: "/call-for-papers" },
+      { label: "Call for Special Session", href: "/call-for-special-session" },
+      { label: "Call for Sponsorship", href: "/call-for-sponsorship" },
+      { label: "Submission Guidelines", href: "/submission-guidelines" },
+      { label: "Peer Review Policy", href: "/peer-review-policy" },
+
+    ],
+  },
+  { label: "Important Dates", href: "/important-dates" },
+  {
+    label: "Committees",
+    hasDropdown: true,
+    subItems: [
+      { label: "Steering Committee", href: "/steering-committee" },
+      { label: "Advisory Committee", href: "/advisory-committee" },
+      { label: "Technical Programme Committee", href: "/technical-committee" },
+    ],
+  },
+
+  { label: "Registration", href: "/registration" },
+  { label: "Publication", href: "/publication" },
+  { label: "Speakers", href: "/speakers" },
+  {
+    label: "Gallery",
+    href: "/gallery",
+    // hasDropdown: true,
+    // subItems: [
+    //   { label: "Inaugural", href: "/gallery/inaugural" },
+    //   { label: "Valedictory", href: "/gallery/valedictory" },
+    //   { label: "Offline Session", href: "/gallery/offline-session" },
+    //   { label: "Online Session", href: "/gallery/online-session" },
+    //   { label: "Keynote Session", href: "/gallery/keynote-session" },
+    // ],
+  },
+  { label: "Contact Us", href: "/contact-us" },
+  { label: "In and Around Kanpur", href: "/kanpur" },
+  { label: "CMT Acknowledgement", href: "/cmt-acknowledgement" },
+  { label: "Downloads", href: "/download" },
+];
+
+export default function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
+
+  const toggleDropdown = (index) => {
+    setOpenDropdown(openDropdown === index ? null : index);
+  };
+
+  return (
+    <nav className="sticky top-0 z-50 bg-[#1B305C] text-[#FEFBFB] font-bold text-sm tracking-wide">
+      <div className="max-w-screen-2xl mx-auto px-4">
+        {/* Mobile menu button */}
+        <div className="lg:hidden flex justify-between items-center py-4">
+          <div className="text-lg font-semibold">ICSCIS</div>
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="text-white text-xl"
+          >
+            {menuOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
+
+        {/* Desktop navbar */}
+        <div className="hidden lg:flex justify-center items-center h-[50px] space-x-6">
+          {menuItems.map((item, index) => (
+            <div key={index} className="relative group cursor-pointer">
+              {/* Menu item */}
+              <div className="flex items-center gap-1 hover:text-yellow-300">
+                {/* <Link to={item.href}>{item.label}</Link> */}
+                <Link to={item.href} className="relative inline-block">
+
+                  {/* Badge */}
+                  {item.label === "Download" && (
+                    <span className="absolute -top-3 -left-2 flex h-5 w-5">
+
+                      {/* Pulse ring */}
+                      <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 animate-ping"></span>
+
+                      {/* Solid circle */}
+                      <span className="relative inline-flex h-5 w-5 rounded-full bg-red-600 text-white text-[9px] items-center justify-center font-bold">
+                        New
+                      </span>
+
+                    </span>
+                  )}
+
+                  {/* Text */}
+                  <span className="pl-1">{item.label}</span>
+
+                </Link>
+                {item.hasDropdown && (
+                  <FaChevronDown className="text-xs mt-[1px]" />
+                )}
+              </div>
+
+              {/* Desktop dropdown */}
+              {item.hasDropdown && (
+                <div className="absolute left-0 top-full mt-0 hidden group-hover:flex flex-col bg-[#1B305C] text-white rounded shadow-lg z-50 min-w-[200px]">
+                  {item.subItems.map((subItem, subIndex) => (
+                    <Link
+                      key={subIndex}
+                      to={subItem.href}
+                      className="px-4 py-2 text-sm hover:text-yellow-300"
+                    >
+                      {subItem.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Mobile menu */}
+        {menuOpen && (
+          <div className="lg:hidden py-3 space-y-2">
+            {menuItems.map((item, index) => (
+              <div key={index} className="border-b border-white/30 pb-2">
+                <div
+                  className="flex items-center justify-between text-white hover:text-yellow-300"
+                  onClick={() =>
+                    item.hasDropdown
+                      ? toggleDropdown(index)
+                      : setMenuOpen(false)
+                  }
+                >
+                  {/* <Link to={item.href} onClick={() => !item.hasDropdown && setMenuOpen(false)}>
+                    {item.label}
+                  </Link> */}
+                  <Link
+                    to={item.href}
+                    onClick={() => !item.hasDropdown && setMenuOpen(false)}
+                    className="relative inline-block"
+                  >
+                    {/* Badge */}
+                    {item.label === "Download" && (
+                      <span className="absolute -top-3 -left-2 flex h-5 w-5">
+
+                        {/* Pulse ring */}
+                        <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 animate-ping"></span>
+
+                        {/* Solid circle */}
+                        <span className="relative inline-flex h-5 w-5 rounded-full bg-red-600 text-white text-[9px] items-center justify-center font-bold">
+                          New
+                        </span>
+
+                      </span>
+                    )}
+
+                    {/* Text */}
+                    <span className="pl-1">{item.label}</span>
+                  </Link>
+                  {item.hasDropdown && (
+                    <FaChevronDown
+                      className={`text-xs transition-transform duration-300 ${openDropdown === index ? "rotate-180" : ""
+                        }`}
+                    />
+                  )}
+                </div>
+
+                {/* Mobile dropdown */}
+                {item.hasDropdown && openDropdown === index && (
+                  <div className="mt-2 pl-4 space-y-1">
+                    {item.subItems.map((subItem, subIndex) => (
+                      <Link
+                        key={subIndex}
+                        to={subItem.href}
+                        onClick={() => setMenuOpen(false)}
+                        className="block text-sm text-white hover:text-yellow-300"
+                      >
+                        {subItem.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+}
