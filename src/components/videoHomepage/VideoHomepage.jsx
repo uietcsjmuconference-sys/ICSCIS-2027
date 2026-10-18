@@ -22,10 +22,10 @@ const VideoHomepage = () => {
         >
           <div className="bg-white rounded-2xl bg-opacity-60">
           <h1 className="text-4xl md:text-5xl font-bold mb-2 text-[#ff6600] ">
-            International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026)
+           2nd International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2027)
           </h1>
           
-          <p className="text-xl font-medium text-[#ff6600]">
+          {/* <p className="text-xl font-medium text-[#ff6600]">
             Conference Date: 20
             <sup className=" text-[#ff6600]">
               th
@@ -35,7 +35,7 @@ const VideoHomepage = () => {
               st
             </sup>{" "}
             April, 2026
-          </p>
+          </p> */}
           </div>
         </div>
       </div>

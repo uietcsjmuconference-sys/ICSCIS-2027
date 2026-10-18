@@ -9,15 +9,15 @@ const menuItems = [
     label: "Calls",
     hasDropdown: true,
     subItems: [
-      { label: "Call for paper", href: "/call-for-papers" },
-      { label: "Call for Special Session", href: "/call-for-special-session" },
-      { label: "Call for Sponsorship", href: "/call-for-sponsorship" },
-      { label: "Submission Guidelines", href: "/submission-guidelines" },
-      { label: "Peer Review Policy", href: "/peer-review-policy" },
+      { label: "Call for paper", href: "/willbe-soon" },
+      { label: "Call for Special Session", href: "/willbe-soon" },
+      { label: "Call for Sponsorship", href: "/willbe-soon" },
+      { label: "Submission Guidelines", href: "/willbe-soon" },
+      { label: "Peer Review Policy", href: "/willbe-soon" },
 
     ],
   },
-  { label: "Important Dates", href: "/important-dates" },
+  { label: "Important Dates", href: "/willbe-soon" },
   {
     label: "Committees",
     hasDropdown: true,
@@ -28,12 +28,12 @@ const menuItems = [
     ],
   },
 
-  { label: "Registration", href: "/registration" },
-  { label: "Publication", href: "/publication" },
+  { label: "Registration", href: "/willbe-soon" },
+  { label: "Publication", href: "/willbe-soon" },
   { label: "Speakers", href: "/speakers" },
   {
     label: "Gallery",
-    href: "/gallery",
+    href: "/willbe-soon",
     // hasDropdown: true,
     // subItems: [
     //   { label: "Inaugural", href: "/gallery/inaugural" },
@@ -43,10 +43,10 @@ const menuItems = [
     //   { label: "Keynote Session", href: "/gallery/keynote-session" },
     // ],
   },
-  { label: "Contact Us", href: "/contact-us" },
+  { label: "Contact Us", href: "/willbe-soon" },
   { label: "In and Around Kanpur", href: "/kanpur" },
   { label: "CMT Acknowledgement", href: "/cmt-acknowledgement" },
-  { label: "Downloads", href: "/download" },
+  { label: "Downloads", href: "/willbe-soon" },
 ];
 
 export default function NavBar() {

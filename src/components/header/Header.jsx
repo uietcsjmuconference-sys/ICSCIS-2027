@@ -16,7 +16,7 @@ import finalnewlogo from "../../assets/header_logo_new_updated_remove_scitepress
 
 
 const Header = () => {
-  const logos = [finalnewlogo];
+  const logos = [finallogo];
 
   return (
     <header className=" header bg-white text-dark  px-4 pb-0">
@@ -34,12 +34,12 @@ const Header = () => {
 
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
-          International Conference on Sustainable Computing and Intelligent Systems
+         2nd International Conference on Sustainable Computing and Intelligent Systems
 
           <br />
           <span className="text-[#1B305C]">
             {" "}
-            (ICSCIS) - 2026 Hybrid Mode
+            (ICSCIS) - 2027 Hybrid Mode
           </span>
           <br />
         </h1>
@@ -94,23 +94,23 @@ const Header = () => {
               Tecnm Instituto Tecnologico Superior De Fresnillo, Mexico
             </h2>
 
-            <div className="mt-6 mb-2 flex justify-center items-center gap-4 flex-wrap">
+            {/* <div className="mt-6 mb-2 flex justify-center items-center gap-4 flex-wrap">
               <span className="bg-yellow-400 text-black font-bold text-lg px-6 py-3 rounded-md shadow-lg flex items-center gap-3">
                 <span>Conference Dates: 20<sup>th</sup> - 21<sup>st</sup> April, 2026</span>
-                {/* <span className="bg-red-600 text-white text-xs px-2 py-1 rounded-full uppercase tracking-wider font-bold animate-pulse">
+                <span className="bg-red-600 text-white text-xs px-2 py-1 rounded-full uppercase tracking-wider font-bold animate-pulse">
                   New Dates
-                </span> */}
+                </span>
               </span>
-            </div>
+            </div> */}
             {/* <div className="mt-4 font-bold">
               <span className="bg-green-300 px-2 py-1 rounded">
                 Due to some unavoidable administrative circumstances, Conference dates are being shifted from 17th-18th April to 20th-21st April.
               </span>
             </div> */}
 
-            <div className="mt-4 font-bold text-red-600">
+            {/* <div className="mt-4 font-bold text-red-600">
               Funded by ANRF (Anusandhan National Research Foundation) Government of India
-            </div>
+            </div> */}
 
             {/* <div className="text-center overflow-hidden">
               <span className="inline-block mt-4 px-4 py-2  text-[#61B33B] font-bold text-lg rounded-lg animate-marqueeText ">
@@ -122,7 +122,7 @@ const Header = () => {
               SCITEPRESS Approved Conference (Indexed in Scopus**, dblp and many more)
             </div> */}
           </div>
-          <Submitpaper />
+          {/* <Submitpaper /> */}
         </div>
       </div>
     </header>

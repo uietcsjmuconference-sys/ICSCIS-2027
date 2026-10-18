@@ -66,7 +66,7 @@ export default function AboutUniversity() {
           opportunities for internships and practical experience.
         </p>
       </div>
-      <div className="max-w-5xl mx-auto text-justify leading-7 space-y-4 ">
+      {/* <div className="max-w-5xl mx-auto text-justify leading-7 space-y-4 ">
         <h2 className="text-center text-2xl font-semibold mb-6 mt-20">
           About the ANRF
         </h2>
@@ -80,7 +80,7 @@ export default function AboutUniversity() {
 
           ANRF has been established to promote research and development and foster a culture of research and innovation throughout India’s Universities, Colleges, Research Institutions, and R&D laboratories. ANRF acts as an apex body to provide high-level strategic direction of scientific research in the country as per recommendations of the National Education Policy. ANRF forges collaborations among the industry, academia, and government departments and research institutions.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -89,7 +89,8 @@ function App() {
         <Route path="/kanpur" element={<InAndAroundKanpur />} />
         <Route path="/peer-review-policy" element={<PeerReviewPolicy />} />
         <Route path="/download" element={<Download />} />
-
+        <Route path="/willbe-soon" element={<Willbesoon />} />
+      
         <Route path="/cmt-acknowledgement" element={<CMTAcknowledgement />} />
       </Routes>
       <Footer />

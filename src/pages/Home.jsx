@@ -31,21 +31,21 @@ const Home = () => {
 
       <VideoHomepage />
       <Carousel />
-      <Homepagepublication2026 />
-      <Homepagemediapartner />
-      <FundedBy />
-      <Indexing />
-      <div className="bg-gray-100 py-10  text-center text-black border-b shadow-lg rounded-lg">
+      {/* <Homepagepublication2026 /> */}
+      {/* <Homepagemediapartner /> */}
+      {/* <FundedBy /> */}
+      {/* <Indexing /> */}
+      <div className="bg-gray-100 px-6 py-10 text-black rounded-lg">
         {/* Section: About the Conference */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+        <h2 className="text-center text-2xl font-semibold mb-6">
             About the Conference
           </h2>
         
-        <p className="max-w-4xl mx-auto text-justify leading-7">
+        <p className="max-w-5xl mx-auto text-justify leading-7 space-y-4">
           <span>
             The{" "}
             <strong>
-              International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026)
+              2nd International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2027)
             </strong>{" "}
             is a distinguished global forum dedicated to advancing research and
             innovation at the intersection of cutting-edge computing,
@@ -53,12 +53,12 @@ const Home = () => {
           </span>
 
           <span className="mt-4">
-            Scheduled for{" "}
+            {/* Scheduled for{" "} */}
             <strong>
               {/* 17<sup>th</sup>–18<sup>th</sup> April 2026 */}
-              20<sup>th</sup>–21<sup>st</sup> April 2026
+              {/* 20<sup>th</sup>–21<sup>st</sup> April 2026 */}
             </strong>
-            , this international conference aims to foster interdisciplinary
+            This international conference aims to foster interdisciplinary
             collaboration to address urgent environmental, economic, and social
             challenges through sustainable technological solutions.
           </span>
@@ -67,7 +67,7 @@ const Home = () => {
             In an era marked by rapid digital transformation and environmental
             concerns, the role of emerging computing and communication
             technologies in shaping a resilient and sustainable future is more
-            critical than ever. <strong>ICSCIS 2026</strong> provides a
+            critical than ever. <strong>ICSCIS 2027</strong> provides a
             platform for researchers, practitioners, industry leaders, and
             policymakers to share breakthrough ideas, promote green technology
             practices, and explore sustainable frameworks that minimize
