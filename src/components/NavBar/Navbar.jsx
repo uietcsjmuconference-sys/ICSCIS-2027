@@ -14,6 +14,10 @@ const menuItems = [
       { label: "Call for Sponsorship", href: "/willbe-soon" },
       { label: "Submission Guidelines", href: "/willbe-soon" },
       { label: "Peer Review Policy", href: "/willbe-soon" },
+      {
+        label: "Call for Reviewers",
+        href: "/call-for-reviewers",
+      },
 
     ],
   },
@@ -30,7 +34,7 @@ const menuItems = [
 
   { label: "Registration", href: "/willbe-soon" },
   { label: "Publication", href: "/willbe-soon" },
-  { label: "Speakers", href: "/speakers" },
+  { label: "Keynote Sessions", href: "/keynote-sessions" },
   {
     label: "Gallery",
     href: "/willbe-soon",

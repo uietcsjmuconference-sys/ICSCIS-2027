@@ -13,7 +13,7 @@ import img4 from "../../assets/Slideimg/image.png";
 import img5 from "../../assets/Slideimg/image_5.jpg";
 import img6 from "../../assets/Slideimg/image_6.jpg";
 import img7 from "../../assets/Slideimg/image_13.png";
-import img8 from "../../assets/Slideimg/slideImage2026.png";
+import img8 from "../../assets/Slideimg/slideImage2027.png";
 
 const Carousel = () => {
   // Array with image and specific object position for each
