@@ -202,7 +202,7 @@ const CallForSponsorship = () => {
               </a>
             </li>
             <li>
-              Phone: Prof. Rabins Porwal +91 93698 84977, Dr. Deepak Kumar Verma +91 9839105362, Dr. Ajeet Srivastava +91 93075 11919
+              Phone: Prof. Rabins Porwal +91 93698 84977, Prof. Deepak kumar Verma +91 9839105362, Dr. Ajeet Srivastava +91 93075 11919
             </li>
           </ul>
 

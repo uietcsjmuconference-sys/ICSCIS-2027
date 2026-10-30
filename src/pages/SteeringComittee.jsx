@@ -26,7 +26,7 @@ const SteeringCommittee = () => {
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Patron</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>
-              Prof. Sudhir Kumar Awasthi, Pro Vice Chancellor, CSJM University,
+              Prof. Sudhanshu Pandiya, Pro Vice Chancellor, CSJM University,
               Kanpur
             </li>
             <li>Shri Rakesh Kumar Mishra, Registrar, CSJM University, Kanpur</li>
@@ -43,7 +43,7 @@ const SteeringCommittee = () => {
               Prof. Bristhi Mitra, Dean Academics, CSJM University, Kanpur
             </li>
             <li>
-              Dr. Alok Kumar, Director, School of Engineering and Technology (UIET), CSJM University Kanpur
+              Prof. Alok Kumar, Director, School of Engineering and Technology (UIET), CSJM University Kanpur
             </li>
           </ul>
         </section>
@@ -134,7 +134,7 @@ const SteeringCommittee = () => {
             </li>
             <li>Prof. Rajeev Srivastava, IIT BHU</li>
             <li>Dr. Deepak Gupta, MNNIT Allahabad</li>
-            <li>Dr. Alok Kumar, CSJM University Kanpur</li>
+            <li>Prof. Alok Kumar, CSJM University Kanpur</li>
             <li>Dr. Vineeta Singh, CSJM University Kanpur</li>
           </ul>
         </section>
@@ -178,7 +178,7 @@ const SteeringCommittee = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Prof. Rabins Porwal</li>
-            <li>Dr. Deepak Kumar Verma</li>
+            <li>Prof. Deepak kumar Verma</li>
             <li>Dr. Ajeet Kumar Srivastava</li>
           </ul>
         </section>
@@ -189,7 +189,7 @@ const SteeringCommittee = () => {
             Co-Convenor(s)
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Dr. Pushpa Mamoriya</li>
+            <li>Prof. Pushpa Mamoria</li>
             <li>Dr. Vineeta Singh</li>
             <li>Dr. Ajay Tiwari</li>
             <li>Dr. Kapil Joshi, Uttaranchal University Dehradun</li>
@@ -202,8 +202,8 @@ const SteeringCommittee = () => {
             Organizing Committee
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Dr. Vishal Awasthi</li>
-            <li>Dr. Sandesh Gupta</li>
+            <li>Prof. Vishal Awasthi</li>
+            <li>Prof. Sandesh Gupta</li>
             <li>Dr. Niraj Kumar</li>
             <li>Dr. Ompal</li>
             <li>Mr. Anand Kumar Gupta</li>
@@ -228,7 +228,7 @@ const SteeringCommittee = () => {
             <li>Mrs. Arpita Singh</li>
             <li>Dr. Mayur Rahul</li>
             <li>Mr. Ravi Kant Mishra</li>
-            <li>Dr. Pushpa Mamoriya</li>
+            <li>Prof. Pushpa Mamoria</li>
             <li>Dr. Mamta Tiwari</li>
             <li>Mr. Sheshmani Tiwari</li>
             <li>Mr. Ramnayan Mishra</li>

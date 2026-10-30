@@ -27,7 +27,7 @@ const Committee = () => {
             </h2>
             <ul className="list-disc list-inside text-gray-700">
               <li>
-                Prof. Sudhir Kumar Awasthi, Pro Vice Chancellor, CSJM
+                Prof. Sudhanshu Pandiya, Pro Vice Chancellor, CSJM
                 University, Kanpur
               </li>
               <li>Dr. Anil Kumar Yadav, Registrar, CSJM University, Kanpur</li>
@@ -50,9 +50,9 @@ const Committee = () => {
               General Chair
             </h2>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Dr. Deepak Kumar Verma</li>
-              <li>Dr. Vishal Awasthi</li>
-              <li>Dr. Sandesh Gupta</li>
+              <li>Prof. Deepak kumar Verma</li>
+              <li>Prof. Vishal Awasthi</li>
+              <li>Prof. Sandesh Gupta</li>
               <li>Dr. Neeraj Kumar</li>
             </ul>
           </section>
@@ -63,7 +63,7 @@ const Committee = () => {
             </h2>
             <ul className="list-disc list-inside text-gray-700">
               <li>Prof. Robins Porwal</li>
-              <li>Dr. Alok Kumar</li>
+              <li>Prof. Alok Kumar</li>
               <li>Dr. Ajeet Kumar Srivastava</li>
             </ul>
           </section>
@@ -74,7 +74,7 @@ const Committee = () => {
             </h2>
             <ul className="list-disc list-inside text-gray-700">
               <li>Dr. Vineeta Singh</li>
-              <li>Dr. Pushpa Memoriya</li>
+              <li>Prof. Pushpa Mamoria</li>
               <li>Mrs. Parul Awashthi</li>
               <li>Mr. Amit Virmani</li>
               <li>Dr. Ajay Tiwari</li>
@@ -100,7 +100,7 @@ const Committee = () => {
             </h2>
             <ul className="list-disc list-inside text-gray-700">
               <li>Prof. Robins Porwal</li>
-              <li>Dr. Alok Kumar</li>
+              <li>Prof. Alok Kumar</li>
               <li>Dr. Ajeet Kr. Srivastava</li>
               <li>Dr. Ajay Tiwari</li>
               <li>Dr. Arpita Singh</li>
@@ -114,7 +114,7 @@ const Committee = () => {
               Public Relation Committee
             </h2>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Dr. Sandesh Gupta</li>
+              <li>Prof. Sandesh Gupta</li>
               <li>Dr. Ajay Tiwari</li>
               <li>Mr. Sanjeer Kumar</li>
               <li>Mr. Shivneet Tripathi</li>
@@ -126,7 +126,7 @@ const Committee = () => {
               Publicity
             </h2>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Dr. Sandesh Gupta</li>
+              <li>Prof. Sandesh Gupta</li>
               <li>Mr. Amit Virmani</li>
               <li>Mr. Omkar Agrahari</li>
               <li>Mr. Shah Alam</li>
@@ -142,7 +142,7 @@ const Committee = () => {
               Hospitality Committee
             </h2>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Dr. Pushpa Memoriya</li>
+              <li>Prof. Pushpa Mamoria</li>
               <li>Dr. Mamta Tiwari</li>
               <li>Mr. Amit Virmani</li>
               <li>Mr. Sheshmani Tiwari</li>

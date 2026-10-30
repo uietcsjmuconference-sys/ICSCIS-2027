@@ -9,7 +9,7 @@ const contacts = [
   },
   {
     sr: 2,
-    name: "Dr. Deepak Kumar Verma",
+    name: "Prof. Deepak kumar Verma",
     email: "deepak@csjmu.ac.in",
     phone: "+91 98391 05362",
   },

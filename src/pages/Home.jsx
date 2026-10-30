@@ -17,7 +17,7 @@ import Indexing from "../components/sections/about/Indexing";
 import FundedBy from "../components/sections/FundedBy";
 import Announcements from "./Announcements";
 import Homepageimg2026 from "../components/homepageimg/Homepageimg2026";
-import HomepagefloatingKeynotesspeaker from "../components/homepagespeaker/HomepagefloatingKeynotesspeaker";
+import KeynoteSessions from "../components/keynoteSessions/KeynoteSessions";
 
 const Home = () => {
   return (
@@ -79,7 +79,7 @@ const Home = () => {
       <div className=" ">
         {/* <HomepageKeynotespeaker /> */}
         <Homepageimg2026 />
-        <HomepagefloatingKeynotesspeaker />
+        <KeynoteSessions />
 
         <Homepagepublication />
         

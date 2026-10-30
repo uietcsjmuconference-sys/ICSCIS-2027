@@ -35,6 +35,8 @@ import HomepageKeynotespeaker from "./components/homepagespeaker/HomepageKeynote
 import InAndAroundKanpur from "./pages/InAndAroundKanpur";
 import Download from "./pages/Download";
 import Gallery2026 from "./pages/Gallery2026";
+import KeynoteSessions from "./components/keynoteSessions/KeynoteSessions";
+import CallForReviewers from "./pages/CallForReviewers";
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -81,6 +83,8 @@ function App() {
         <Route path="/registration" element={<Registration />} />
         <Route path="/publication" element={<Publication />} />
         <Route path="/speakers" element={<HomepageKeynotespeaker />} />
+        <Route path="/keynote-sessions" element={<KeynoteSessions />} />
+        <Route path="/call-for-reviewers" element={<CallForReviewers />} />
         <Route path="/gallery" element={<Gallery2026 />} />
         <Route path="/contact-us" element={<Contactus />} />
         <Route path="/submission-guidelines" element={<SubmissionGuideline />} />
