@@ -31,10 +31,10 @@ const ContactUs = () => {
       <p className="text-center text-lg mb-8">
         Conference Email:{" "}
         <a
-          href="mailto:icraecct@csjmu.ac.in"
+          href="mailto:icscis2027@csjmu.ac.in"
           className="text-blue-600 hover:text-blue-800 underline"
         >
-          icscis2026@csjmu.ac.in
+          icscis2027@csjmu.ac.in
         </a>
       </p>
 

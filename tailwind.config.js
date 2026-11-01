@@ -16,14 +16,19 @@ export default {
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        marqueeKeynote: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
         marqueeText: {
           "0%, 100%": { transform: "translateX(-75%)" },
           "50%": { transform: "translateX(75%)" }, // move right
         },
       },
       animation: {
-        marqueekeynotesession: "marquee 35s linear infinite", // normal
-        marqueeimg: "marquee 240s linear infinite",           // slow
+        marqueekeynotesession: "marquee 200s linear infinite", // normal
+        marqueeKeynote: "marqueeKeynote 240s linear infinite",
+        marqueeimg: "marquee 200s linear infinite",           // slow
         marqueeFaster: "marquee 5s linear infinite",          // fast
         marqueeText: "marqueeText 10s ease-in-out infinite",   // left-right bounce
       },

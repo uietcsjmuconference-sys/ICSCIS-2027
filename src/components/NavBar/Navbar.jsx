@@ -47,7 +47,7 @@ const menuItems = [
     //   { label: "Keynote Session", href: "/gallery/keynote-session" },
     // ],
   },
-  { label: "Contact Us", href: "/willbe-soon" },
+  { label: "Contact Us", href: "/contact-us" },
   { label: "In and Around Kanpur", href: "/kanpur" },
   { label: "CMT Acknowledgement", href: "/cmt-acknowledgement" },
   { label: "Downloads", href: "/willbe-soon" },

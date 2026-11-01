@@ -109,7 +109,7 @@ export default function KeynoteSessions() {
           </div>
         </div>
 
-        <div className="mt-14">
+        {/* <div className="mt-14">
           <div className="mb-6 text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-sky-700">
               Global experts
@@ -143,7 +143,7 @@ export default function KeynoteSessions() {
               </article>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <section className="mt-14 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
           <div className="mx-auto max-w-3xl text-center">
@@ -159,23 +159,32 @@ export default function KeynoteSessions() {
               Systems
             </p>
           </div>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {galleryImages.map((image, index) => (
-              <button
-                type="button"
-                key={image.src}
-                onClick={() => setSelectedImage(index)}
-                className="group overflow-hidden rounded-xl border border-slate-200 bg-slate-100 text-left focus:outline-none focus:ring-2 focus:ring-sky-600"
-                aria-label={`View presentation slide ${index + 1}`}
-              >
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  loading="lazy"
-                  className="aspect-video w-full object-cover transition duration-300 group-hover:scale-105"
-                />
-              </button>
-            ))}
+          <div className="mt-8 overflow-hidden">
+            <div className="flex w-max animate-marqueeimg gap-4 hover:[animation-play-state:paused] focus-within:[animation-play-state:paused] motion-reduce:animate-none">
+              {[...galleryImages, ...galleryImages].map((image, index) => {
+                const slideIndex = index % galleryImages.length;
+                const isDuplicate = index >= galleryImages.length;
+
+                return (
+                  <button
+                    type="button"
+                    key={`${image.src}-${index}`}
+                    onClick={() => setSelectedImage(slideIndex)}
+                    tabIndex={isDuplicate ? -1 : undefined}
+                    aria-hidden={isDuplicate}
+                    className="group w-[min(85vw,32rem)] shrink-0 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 text-left focus:outline-none focus:ring-2 focus:ring-sky-600"
+                    aria-label={`View presentation slide ${slideIndex + 1}`}
+                  >
+                    <img
+                      src={image.src}
+                      alt={isDuplicate ? "" : image.alt}
+                      loading="lazy"
+                      className="aspect-video w-full object-cover transition duration-300 group-hover:scale-105"
+                    />
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </section>
 
