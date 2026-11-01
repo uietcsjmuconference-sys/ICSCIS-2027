@@ -19,8 +19,18 @@ import ShekarVollem from "../assets/imagespeakers/Shekar_Vollem.jpeg";
 import SuneelMogali from "../assets/imagespeakers/Suneel_Kumar_Mogali.jpeg";
 import VenkataPatibandla from "../assets/imagespeakers/Venkata_Jayadeep_Patibandla.jpeg";
 import VirendraChawra from "../assets/imagespeakers/Virendra_Singh_Chawra.jpeg";
-
+import Prof_Alvaro_Rocha from "../assets/imagespeakers/Prof-Alvaro-Rocha-aNHygu6H.png";
 const keynoteSessions = [
+  {
+    id: "Prof_Alvaro_Rocha",
+    image: Prof_Alvaro_Rocha,
+    name: "Prof. Alvaro Rocha",
+    designation: "Professor of Information Systems",
+    affiliation: "ISEG, University of Lisbon",
+    location: "Portugal",
+    title: "Digital Health Maturity Models and their Role in Transforming Care Systems",
+    category: "Healthcare Informatics & Digital Health Systems",
+  },
   {
     id: "anokh-kishore-green-backends",
     image: AnokhKishore,
@@ -56,7 +66,7 @@ const keynoteSessions = [
     id: "divyaraj-singh-jatav-financial-intelligence",
     image: DivyarajJatav,
     name: "Divyaraj Singh Jatav",
-    designation: "Supply Chain Planner 2",
+    designation: "Supply Chain Planner",
     affiliation: "Independent Researcher, Westcliff University",
     location: "USA",
     title:
@@ -100,7 +110,7 @@ const keynoteSessions = [
     id: "shailesh-sayarmal-chaudhary-financial-integrity",
     image: ShaileshChaudhary,
     name: "Shailesh Sayarmal Chaudhary",
-    designation: "Software Engineer 2",
+    designation: "Software Engineer",
     affiliation: "Amazon Web Services",
     location: "United States",
     title:
