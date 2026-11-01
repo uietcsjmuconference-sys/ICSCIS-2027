@@ -12,11 +12,11 @@ import finallogo from "../../assets/finallogo.png";
 import finallogo2026 from "../../assets/final_logo14_03_2026.png";
 // import finalnewlogo2026 from "../../assets/header_logo_new_2026.jpg";
 import finalnewlogoupdated2026 from "../../assets/header_logo_new_updated_2026.png"
-import finalnewlogo from "../../assets/header_logo_new_updated_remove_scitepress_2026.jpg"
+import finalnewlogo from "../../assets/header_logo_new_updated_remove_scitepress_2027.jpg"
 
 
 const Header = () => {
-  const logos = [finallogo];
+  const logos = [finalnewlogo];
 
   return (
     <header className=" header bg-white text-dark  px-4 pb-0">
