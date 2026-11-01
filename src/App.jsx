@@ -36,6 +36,7 @@ import InAndAroundKanpur from "./pages/InAndAroundKanpur";
 import Download from "./pages/Download";
 import Gallery2026 from "./pages/Gallery2026";
 import KeynoteSessions from "./components/keynoteSessions/KeynoteSessions";
+// import KeynoteSessions2025 from "./components/keynoteSessions/KeynoteSessions2025";
 import CallForReviewers from "./pages/CallForReviewers";
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
         <Route path="/publication" element={<Publication />} />
         <Route path="/speakers" element={<HomepageKeynotespeaker />} />
         <Route path="/keynote-sessions" element={<KeynoteSessions />} />
+        {/* <Route path="/keynote-sessions-2025" element={<KeynoteSessions2025 />} /> */}
         <Route path="/call-for-reviewers" element={<CallForReviewers />} />
         <Route path="/gallery" element={<Gallery2026 />} />
         <Route path="/contact-us" element={<Contactus />} />

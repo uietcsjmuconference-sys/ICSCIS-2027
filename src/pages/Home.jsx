@@ -18,7 +18,7 @@ import FundedBy from "../components/sections/FundedBy";
 import Announcements from "./Announcements";
 import Homepageimg2026 from "../components/homepageimg/Homepageimg2026";
 import KeynoteSessions from "../components/keynoteSessions/KeynoteSessions";
-
+import KeynoteSessions2025 from "../components/keynoteSessions/KeynoteSessions2025";
 const Home = () => {
   return (
     <>
@@ -80,11 +80,11 @@ const Home = () => {
         {/* <HomepageKeynotespeaker /> */}
         <Homepageimg2026 />
         <KeynoteSessions />
-
-        <Homepagepublication />
-        
         <Homepageimg />
+        <KeynoteSessions2025 />
+        
         <Homepagekeynotesession />
+        <Homepagepublication />
         <CountryFlags /> 
         {/* 
         
