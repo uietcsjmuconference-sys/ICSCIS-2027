@@ -96,7 +96,7 @@ const Header = () => {
 
             <div className="mt-6 mb-2 flex justify-center items-center gap-4 flex-wrap">
               <span className="bg-yellow-400 text-black font-bold text-lg px-6 py-3 rounded-md shadow-lg flex items-center gap-3">
-                <span>23<sup>rd</sup> - 24<sup>th</sup> April, 2027 [Tentative]</span>
+                <span>16<sup>th</sup> - 17<sup>th</sup> April, 2027 [Tentative]</span>
                 {/* <span className="bg-red-600 text-white text-xs px-2 py-1 rounded-full uppercase tracking-wider font-bold animate-pulse">
                   New Dates
                 </span> */}
