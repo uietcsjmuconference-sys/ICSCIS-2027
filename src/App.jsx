@@ -41,7 +41,7 @@ import CallForReviewers from "./pages/CallForReviewers";
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
-  const [isPosterOpen, setIsPosterOpen] = useState(true);
+  // const [isPosterOpen, setIsPosterOpen] = useState(true);
   // const alertShown = useRef(false);
 
   useEffect(() => {
@@ -65,31 +65,31 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    if (!isPosterOpen) {
-      document.body.style.overflow = "";
-      return undefined;
-    }
+  // useEffect(() => {
+  //   if (!isPosterOpen) {
+  //     document.body.style.overflow = "";
+  //     return undefined;
+  //   }
 
-    const handleKeyDown = (event) => {
-      if (event.key === "Escape") {
-        setIsPosterOpen(false);
-      }
-    };
+  //   const handleKeyDown = (event) => {
+  //     if (event.key === "Escape") {
+  //       setIsPosterOpen(false);
+  //     }
+  //   };
 
-    document.body.style.overflow = "hidden";
-    document.addEventListener("keydown", handleKeyDown);
+  //   document.body.style.overflow = "hidden";
+  //   document.addEventListener("keydown", handleKeyDown);
 
-    return () => {
-      document.body.style.overflow = "";
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [isPosterOpen]);
+  //   return () => {
+  //     document.body.style.overflow = "";
+  //     document.removeEventListener("keydown", handleKeyDown);
+  //   };
+  // }, [isPosterOpen]);
 
   return (
 
     <Router>
-      {isPosterOpen && (
+      {/* {isPosterOpen && (
         <div
           className="poster-modal"
           role="dialog"
@@ -119,7 +119,7 @@ function App() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
       <Header />
       <Markey />
       <Navbar isSticky={isSticky} />
