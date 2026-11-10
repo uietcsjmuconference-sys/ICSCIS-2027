@@ -4,6 +4,86 @@
   text-align: center;
 }
 
+.poster-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgb(0 13 35 / 35%);
+}
+
+.poster-modal__content {
+  position: relative;
+  display: flex;
+  max-width: min(70vw, 780px);
+  max-height: 80vh;
+  overflow: auto;
+  border: 2px solid #fff;
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 35%);
+}
+
+.poster-modal__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.poster-modal__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(80vh - 4px);
+  object-fit: contain;
+}
+
+.poster-modal__close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: grid;
+  width: 2.25rem;
+  height: 2.25rem;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+  background: rgb(0 0 0 / 65%);
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.poster-modal__close:hover,
+.poster-modal__close:focus-visible {
+  background: #003b70;
+}
+
+.poster-modal__close:focus-visible {
+  outline: 3px solid #9bdd37;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .poster-modal {
+    padding: 0.5rem;
+  }
+
+  .poster-modal__content {
+    max-width: 90vw;
+    max-height: 85vh;
+  }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

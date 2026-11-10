@@ -41,6 +41,7 @@ import CallForReviewers from "./pages/CallForReviewers";
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
+  const [isPosterOpen, setIsPosterOpen] = useState(true);
   // const alertShown = useRef(false);
 
   useEffect(() => {
@@ -64,10 +65,61 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (!isPosterOpen) {
+      document.body.style.overflow = "";
+      return undefined;
+    }
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setIsPosterOpen(false);
+      }
+    };
+
+    document.body.style.overflow = "hidden";
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = "";
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isPosterOpen]);
+
   return (
 
     <Router>
-      {/* <DateAlerts /> */}
+      {isPosterOpen && (
+        <div
+          className="poster-modal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="poster-modal-title"
+          onClick={() => setIsPosterOpen(false)}
+        >
+          <div
+            className="poster-modal__content"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <h1 id="poster-modal-title" className="poster-modal__title">
+              ICSCIS 2026 Conference
+            </h1>
+            <img
+              className="poster-modal__image"
+              src="/icsis-2026-poster.png"
+              alt="ICSCIS 2026 conference poster"
+            />
+            <button
+              className="poster-modal__close"
+              type="button"
+              aria-label="Close conference poster"
+              onClick={() => setIsPosterOpen(false)}
+            >
+              &times;
+            </button>
+          </div>
+        </div>
+      )}
       <Header />
       <Markey />
       <Navbar isSticky={isSticky} />
