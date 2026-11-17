@@ -1,4 +1,66 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/about</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/call-for-papers</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/important-dates</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/registration</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/publication</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/speakers</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/advisory-committee</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/technical-committee</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/steering-committee</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/contact-us</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/submission-guidelines</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/call-for-reviewers</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/call-for-special-session</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/call-for-sponsorship</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/peer-review-policy</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/kanpur</loc>
+  </url>
+  <url>
+    <loc>https://csjmu-icscis2027.vercel.app/gallery</loc>
+  </url>
+
+</urlset>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,9 +70,9 @@
 
 
 <url>
-  <loc>https://csjmu-icraecctsf.vercel.app/</loc>
+  <loc>https://csjmu-icscis2027.vercel.app/</loc>
   <lastmod>2025-09-10T11:59:33+00:00</lastmod>
 </url>
 
 
-</urlset>
+</urlset> -->
