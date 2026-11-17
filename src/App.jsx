@@ -38,6 +38,7 @@ import Gallery2026 from "./pages/Gallery2026";
 import KeynoteSessions from "./components/keynoteSessions/KeynoteSessions";
 // import KeynoteSessions2025 from "./components/keynoteSessions/KeynoteSessions2025";
 import CallForReviewers from "./pages/CallForReviewers";
+import SEO from "./components/SEO";
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -89,6 +90,9 @@ function App() {
   return (
 
     <Router>
+
+      <SEO />
+      
       {/* {isPosterOpen && (
         <div
           className="poster-modal"
