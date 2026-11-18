@@ -145,7 +145,7 @@ export default function KeynoteSessions() {
           </div>
         </div> */}
 
-        <section className="mt-14 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+        <section className="mt-14 rounded-2xl border border-slate-200 bg-white  shadow-sm sm:p-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-sky-700">
               ICSCIS 2026 - Keynote Sessions
