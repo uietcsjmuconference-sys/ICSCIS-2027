@@ -4,7 +4,7 @@ const CallForPaper = () => {
   return (
     <div className="w-full min-h-screen bg-gray-100 py-6">
       <div className="max-w-7xl mx-auto px-6 text-justify">
-        <h1 className="text-3xl font-bold mb-6 text-center uppercase">
+        {/* <h1 className="text-3xl font-bold mb-6 text-center uppercase">
           Call for paper
         </h1>
         <div className="mb-6 flex justify-center">
@@ -16,10 +16,10 @@ const CallForPaper = () => {
           >
             Submit Paper
           </a>
-        </div>
+        </div> */}
 
         <p className="mb-6">
-          <strong>ICSCIS 2026</strong> invites original research
+          <strong>ICSCIS 2027</strong> invites original research
           contributions under the following thematic tracks, reflecting the
           latest innovations in computing, communication, and sustainable
           technologies. Each track is aligned with relevant{" "}

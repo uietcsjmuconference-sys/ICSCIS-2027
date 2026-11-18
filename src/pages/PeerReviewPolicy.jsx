@@ -7,7 +7,7 @@ const PeerReviewPolicy = () => {
       </h1>
 
       <p className="text-gray-800 text-base leading-relaxed mb-6 text-justify">
-        ICSCIS 2026 is committed to upholding the highest standards of academic
+        ICSCIS 2027 is committed to upholding the highest standards of academic
         integrity, transparency, and ethical conduct in the evaluation and
         selection of manuscripts submitted for presentation and publication.
         The conference has established a rigorous and impartial peer review
@@ -19,7 +19,7 @@ const PeerReviewPolicy = () => {
         1. Peer Review Model
       </h2>
       <p className="text-gray-800 text-base leading-relaxed text-justify">
-        All manuscripts submitted to ICSCIS 2026 shall be subjected to a
+        All manuscripts submitted to ICSCIS 2027 shall be subjected to a
         double-blind peer review process, wherein the identities of authors
         and reviewers are withheld from each other throughout the review
         period. This process is designed to eliminate bias and ensure that
@@ -133,7 +133,7 @@ const PeerReviewPolicy = () => {
 
       <p className="text-gray-700 text-sm mt-10 italic text-center">
         This policy is binding for all authors, reviewers, and committee members
-        participating in ICSCIS 2026.
+        participating in ICSCIS 2027.
       </p>
     </section>
   );

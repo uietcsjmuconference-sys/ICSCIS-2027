@@ -7,11 +7,11 @@ const CallForSpecialSession = () => {
   return (
     <div className="max-w-5xl mx-auto bg-gray-100 p-8 rounded-lg shadow-md mt-8 text-gray-800">
       <h1 className="text-3xl font-bold mb-6 text-blue-700">
-        CALL FOR SPECIAL SESSIONS – ICSCIS 2026
+        CALL FOR SPECIAL SESSIONS – ICSCIS 2027
       </h1>
 
       <p className="mb-4 text-justify">
-        ICSCIS 2026 invites proposals for <strong>Special Sessions</strong> that
+        ICSCIS 2027 invites proposals for <strong>Special Sessions</strong> that
         address focused, emerging, and interdisciplinary research themes aligned
         with the conference scope. Special Sessions aim to bring together
         researchers and practitioners working on niche or rapidly evolving
@@ -61,7 +61,7 @@ const CallForSpecialSession = () => {
       <ul className="list-disc pl-6 mb-6 space-y-1 text-left">
         <li>Title of the Special Session</li>
         <li>Scope and Objectives (250–400 words)</li>
-        <li>Relevance to ICSCIS 2026 themes</li>
+        <li>Relevance to ICSCIS 2027 themes</li>
         <li>List of potential topics</li>
         <li>Names, affiliations, and contact details of Session Chair(s)</li>
         <li>Brief biography of Session Chair(s)</li>
@@ -72,22 +72,22 @@ const CallForSpecialSession = () => {
         Proposals should be submitted in <strong>PDF format</strong> to:
         <br />
         <a
-          href="mailto:icscis2026@csjmu.ac.in"
+          href="mailto:icscis2027@csjmu.ac.in"
           className="text-blue-600 font-medium underline"
         >
-          icscis2026@csjmu.ac.in
+          icscis2027@csjmu.ac.in
         </a>
         <br />
         <span className="italic">
-          Email Subject: Special Session Proposal Submission for ICSCIS2026
+          Email Subject: Special Session Proposal Submission for ICSCIS2027
         </span>
       </p>
 
       {/* special session cfp template download */}
-      <p className="mb-6 text-left">
+      {/* <p className="mb-6 text-left">
         <div class="px-16 mt-2 flex gap-4 flex-wrap">
 
-          <a href="/docs/Special_Session_CFP_Template_ICSCIS_2026.docx"
+          <a href="/docs/Special_Session_CFP_Template_ICSCIS_2027.docx"
             download
             class="inline-block px-4 py-2 bg-third text-white rounded hover:bg-third-600 transition duration-300">
             <span class="flex items-center">
@@ -99,18 +99,18 @@ const CallForSpecialSession = () => {
           </a>
 
         </div>
-      </p>
+      </p> */}
 
 
-      <h2 className="text-2xl font-semibold mb-3 text-blue-600 text-left">
+      {/* <h2 className="text-2xl font-semibold mb-3 text-blue-600 text-left">
         Important Dates
       </h2>
       <ul className="list-disc pl-6 space-y-1 text-left">
-        <li>Special Session Proposal Submission Deadline: <strong>25 Feb 2026</strong></li>
-        <li>Notification of Acceptance: <strong>1 March 2026</strong></li>
-        <li>Paper Submission Deadline (Special Sessions): <strong>10 March 2026</strong></li>
+        <li>Special Session Proposal Submission Deadline: <strong>25 Feb 2027</strong></li>
+        <li>Notification of Acceptance: <strong>1 March 2027</strong></li>
+        <li>Paper Submission Deadline (Special Sessions): <strong>10 March 2027</strong></li>
         <li>Camera-Ready Submission: <strong>20 March 2025</strong></li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

@@ -9,15 +9,12 @@ const menuItems = [
     label: "Calls",
     hasDropdown: true,
     subItems: [
-      { label: "Call for paper", href: "/willbe-soon" },
-      { label: "Call for Special Session", href: "/willbe-soon" },
-      { label: "Call for Sponsorship", href: "/willbe-soon" },
-      { label: "Submission Guidelines", href: "/willbe-soon" },
-      { label: "Peer Review Policy", href: "/willbe-soon" },
-      {
-        label: "Call for Reviewers",
-        href: "/call-for-reviewers",
-      },
+      { label: "Call for Reviewers", href: "/call-for-reviewers"},
+      { label: "Call for paper", href: "/call-for-papers" },
+      { label: "Call for Special Session", href: "/call-for-special-session" },
+      { label: "Peer Review Policy", href: "/peer-review-policy" },
+      { label: "Submission Guidelines", href: "/submission-guidelines" },
+      { label: "Call for Sponsorship", href: "/call-for-sponsorship" },
 
     ],
   },

@@ -9,18 +9,18 @@ const CallForSponsorship = () => {
 
       <div className="text-md text-gray-700">
         <p className="mb-2">
-          International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026). Hosted at Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, India
+          International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2027). Hosted at Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, India
           in association with Aurel Vlaicu University of Arad, Romania
           and Tecnm Instituto Tecnologico Superior De Fresnillo, Mexico
         </p>
 
         <p className="mb-2 text-justify">
-          ICSCIS 2026 invites industry partners, technology organizations, startups, research institutions, and professional bodies to support the conference as sponsors. The conference provides a high-visibility platform to engage with researchers, academicians, practitioners, and postgraduate students working in sustainable computing, artificial intelligence, intelligent systems, cybersecurity, smart infrastructure, and emerging digital technologies.
-          Sponsorship of ICSCIS 2026 enables organizations to strengthen their brand presence within the academic and research community, demonstrate thought leadership, and contribute to the advancement of sustainable and intelligent digital technologies.
+          ICSCIS 2027 invites industry partners, technology organizations, startups, research institutions, and professional bodies to support the conference as sponsors. The conference provides a high-visibility platform to engage with researchers, academicians, practitioners, and postgraduate students working in sustainable computing, artificial intelligence, intelligent systems, cybersecurity, smart infrastructure, and emerging digital technologies.
+          Sponsorship of ICSCIS 2027 enables organizations to strengthen their brand presence within the academic and research community, demonstrate thought leadership, and contribute to the advancement of sustainable and intelligent digital technologies.
         </p>
 
         <p className="mb-2 text-justify">
-          Why Sponsor ICSCIS 2026?
+          Why Sponsor ICSCIS 2027?
           <p>
             Visibility among an international audience of researchers and professionals
             Brand placement across the conference website, promotional materials, and on-site signage
@@ -41,7 +41,7 @@ const CallForSponsorship = () => {
         <p>
           <strong>
             There are currently four types of sponsorships available for
-            ICSCIS-2026
+            ICSCIS-2027
           </strong>
         </p>
 
@@ -174,10 +174,10 @@ const CallForSponsorship = () => {
             <li>
               Email:&nbsp;
               <a
-                href="mailto:icscis2026@csjmu.ac.in"
+                href="mailto:icscis2027@csjmu.ac.in"
                 className="text-primary underline"
               >
-                icscis2026@csjmu.ac.in
+                icscis2027@csjmu.ac.in
               </a>
               ,&nbsp;
               <a
@@ -221,7 +221,7 @@ const CallForSponsorship = () => {
             <p className="mt-4 font-semibold">
               With best regards,
               <br />
-              Chairs of ICSCIS-2026
+              Chairs of ICSCIS-2027
             </p>
           </div>
         </div>
