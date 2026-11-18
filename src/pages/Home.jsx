@@ -4,6 +4,7 @@ import AboutUniversity from "../components/sections/about/AboutUniversity";
 import AboutConference from "../components/sections/about/AboutConference";
 import VideoHomepage from "../components/videoHomepage/VideoHomepage";
 import CountryFlags from "../components/countryflags/Countryflag";
+import CountryFlags2026 from "../components/countryflags/Countryflag2026";
 import Homepageimg from "../components/homepageimg/Homepageimg";
 import Homepagevideo from "../components/homepagevideo/Homepagevideo";
 import HomepageSpeaker from "../components/homepagespeaker/Homepagespeaker";
@@ -19,6 +20,8 @@ import Announcements from "./Announcements";
 import Homepageimg2026 from "../components/homepageimg/Homepageimg2026";
 import KeynoteSessions from "../components/keynoteSessions/KeynoteSessions";
 import KeynoteSessions2025 from "../components/keynoteSessions/KeynoteSessions2025";
+
+
 const Home = () => {
   return (
     <>
@@ -80,9 +83,11 @@ const Home = () => {
         {/* <HomepageKeynotespeaker /> */}
         <Homepageimg2026 />
         <KeynoteSessions />
+        <CountryFlags2026 />
+
+
         <Homepageimg />
         <KeynoteSessions2025 />
-        
         <Homepagekeynotesession />
         <Homepagepublication />
         <CountryFlags /> 
